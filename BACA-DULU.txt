@@ -1,0 +1,23 @@
+TOKOKU - CARA PASANG JADI APLIKASI
+==================================
+
+ISI ZIP (8 file, taruh dalam SATU folder yang sama):
+- index.html            -> aplikasinya
+- manifest.webmanifest  -> info aplikasi (nama, warna, ikon)
+- sw.js                 -> biar bisa dipakai offline
+- icon-192.png, icon-512.png, icon-maskable-512.png, apple-touch-icon.png -> ikon
+
+CARA PASANG:
+1. Ekstrak semua file, upload SEMUA ke hosting HTTPS
+   (GitHub Pages, Netlify, Cloudflare Pages, dll).
+   Jangan cuma upload index.html saja.
+2. Buka link-nya di Chrome (Android) atau Safari (iPhone).
+3. Android : menu titik tiga > "Instal aplikasi" / "Tambahkan ke layar utama".
+   iPhone  : tombol Bagikan > "Tambah ke Layar Utama".
+
+CATATAN:
+- Mode aplikasi + offline butuh HTTPS. Kalau index.html dibuka langsung dari
+  file manager, tampilan tetap jalan tapi tidak bisa dipasang sebagai aplikasi.
+- Data tersimpan di browser perangkat masing-masing.
+- Kalau mengubah file, naikkan nomor CACHE di sw.js (tokoku-v1 -> tokoku-v2)
+  supaya versi baru terambil.
