@@ -1,0 +1,16 @@
+TOKOKU - PAKET LENGKAP UNTUK GITHUB (8 file)
+
+6 file biasa : index.html, icon-192.png, icon-512.png, icon-maskable-512.png, apple-touch-icon.png, BACA-DULU.txt
+2 file kode  : manifest.webmanifest, sw.js
+
+CARA PASANG
+1. Ekstrak zip di HP.
+2. Di repositori GitHub: Add file > Upload files > pilih file hasil ekstrak > Commit changes.
+   Catatan: pemilih file di HP sering menyembunyikan manifest.webmanifest dan sw.js.
+   Kalau dua file itu tidak muncul, buat lewat Add file > Create new file,
+   ketik namanya, tempel isinya (buka file di aplikasi catatan), lalu Commit.
+3. Settings > Pages > Deploy from a branch > main / (root) > Save.
+4. Tunggu 1-2 menit, buka linknya di Chrome > titik tiga > Instal aplikasi.
+
+UPDATE: kalau hanya index.html yang berubah, cukup upload index.html (menimpa yang lama).
+Data di aplikasi tidak hilang saat update.
